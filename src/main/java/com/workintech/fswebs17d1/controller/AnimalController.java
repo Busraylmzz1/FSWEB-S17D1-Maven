@@ -36,6 +36,7 @@ public class AnimalController {
     }
     @PostMapping
     public void addAnimal(@RequestBody Animal animal){
+        System.out.println("add animal is triggered");
         this.animals.put(animal.getId(),animal);
     }
     @PutMapping("{id}")
