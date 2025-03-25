@@ -104,7 +104,7 @@ class FswebS17d1ApplicationTests {
 		mockMvc.perform(delete("/workintech/animal/1"))
 				.andExpect(status().isOk());
 
-		// Optionally, verify interactions or state if applicable
+
 	}
 
 	@Test
